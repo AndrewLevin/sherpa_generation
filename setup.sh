@@ -13,6 +13,8 @@ cd blackhat-0.9.9
 ./configure --with-QDpath="/afs/cern.ch/work/a/anlevin/sherpa_generation/qd_installation/" --prefix=/afs/cern.ch/work/a/anlevin/sherpa_generation/blackhat_installation/
 make 
 make install
+cd ../
 cd SHERPA-MC-2.1.1 
 ./configure --with-sqlite3=install --enable-blackhat="/afs/cern.ch/work/a/anlevin/sherpa_generation/blackhat_installation/"
 make install
+cd  ../
